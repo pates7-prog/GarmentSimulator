@@ -36,7 +36,7 @@ public class Main {
                 factory = new CasualFactory();
         }
 
-        Top top = factory.createTop();
+        Top top = factory.createTop(); // This design promotes loose coupling and follows the Open/Closed Principle
         Pants pants = factory.createPants();
         Shoes shoes = factory.createShoes();
 
