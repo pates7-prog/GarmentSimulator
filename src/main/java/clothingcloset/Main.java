@@ -10,6 +10,11 @@ import clothingcloset.products.Top;
 
 import java.util.Scanner;
 
+//The client selects a factory (e.g., CasualFactory).
+// * 2. The factory creates a full set of matching garments.
+// * 3. Each product implements a common interface and defines its behavior.
+// * 4. The driver class demonstrates usage by creating and "wearing" the outfit.
+
 public class Main {
     public static void main(String[] args) {
 
